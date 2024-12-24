@@ -31,6 +31,13 @@
 	<!-- responsive -->
 	<link rel="stylesheet" href="assets/css/responsive.css">
 
+	<script>
+		if (window.location.pathname.endsWith('.html')) {
+			window.history.replaceState(null, null, window.location.pathname.replace('.html', ''));
+		}
+	</script>
+	
+
 </head>
 <body>
 	
